@@ -2,6 +2,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 import testing
+import Testing_body
 
 import operator
 
@@ -10,5 +11,8 @@ class Test(QMainWindow,Ui_MainWindow):
     def __init__(self,*args,**kwargs):
         super().__init__()
         self.setupUi(self)
-        # for i in range (1,20):
-            # getattr(self,'pushButton_%s'%i).pressed.connect(self.Test)
+        self.testing = Testing_body.Testing(self)
+        self.pushButton_1.pressed.connect(self.openTesting)
+    def openTesting(self):
+        self.testing.show()
+        self.hide()

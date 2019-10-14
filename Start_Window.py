@@ -1,0 +1,61 @@
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1025, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(290, 120, 401, 301))
+        self.widget.setObjectName("widget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget)
+        self.verticalLayout.setSizeConstraint(QtWidgets.QLayout.SetMinimumSize)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.pushButton_Lessons = QtWidgets.QPushButton(self.widget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Ignored)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_Lessons.sizePolicy().hasHeightForWidth())
+        self.pushButton_Lessons.setSizePolicy(sizePolicy)
+        self.pushButton_Lessons.setObjectName("pushButton_Lessons")
+        self.verticalLayout.addWidget(self.pushButton_Lessons)
+        self.pushButton_Test = QtWidgets.QPushButton(self.widget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Ignored)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_Test.sizePolicy().hasHeightForWidth())
+        self.pushButton_Test.setSizePolicy(sizePolicy)
+        self.pushButton_Test.setObjectName("pushButton_Test")
+        self.verticalLayout.addWidget(self.pushButton_Test)
+        self.pushButton_Exit = QtWidgets.QPushButton(self.widget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Ignored)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_Exit.sizePolicy().hasHeightForWidth())
+        self.pushButton_Exit.setSizePolicy(sizePolicy)
+        self.pushButton_Exit.setIconSize(QtCore.QSize(20, 20))
+        self.pushButton_Exit.setObjectName("pushButton_Exit")
+        self.verticalLayout.addWidget(self.pushButton_Exit)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1025, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.pushButton_Lessons.setText(_translate("MainWindow", "Уроки"))
+        self.pushButton_Test.setText(_translate("MainWindow", "Тесты"))
+        self.pushButton_Exit.setText(_translate("MainWindow", "Выход"))
+

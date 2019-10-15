@@ -14,138 +14,141 @@ class Ui_MainWindow(object):
         MainWindow.resize(1023, 863)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.widget = QtWidgets.QWidget(self.centralwidget)
-        self.widget.setGeometry(QtCore.QRect(0, 0, 501, 781))
-        self.widget.setObjectName("widget")
-        self.formLayout = QtWidgets.QFormLayout(self.widget)
+        self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(0, 0, 511, 731))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.formLayout = QtWidgets.QFormLayout(self.layoutWidget)
         self.formLayout.setContentsMargins(0, 0, 0, 0)
         self.formLayout.setObjectName("formLayout")
-        self.pushButton_1 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_1 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_1.setObjectName("pushButton_1")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.pushButton_1)
-        self.textEdit_6 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_6.setObjectName("textEdit_6")
-        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.textEdit_6)
-        self.pushButton_2 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_2 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_2.setObjectName("pushButton_2")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.pushButton_2)
-        self.textEdit_2 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_2.setObjectName("textEdit_2")
-        self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.textEdit_2)
-        self.pushButton_3 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_3 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_3.setObjectName("pushButton_3")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.pushButton_3)
-        self.textEdit_11 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_11.setObjectName("textEdit_11")
-        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.textEdit_11)
-        self.pushButton_4 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_4 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_4.setObjectName("pushButton_4")
         self.formLayout.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.pushButton_4)
-        self.textEdit = QtWidgets.QTextEdit(self.widget)
-        self.textEdit.setObjectName("textEdit")
-        self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.textEdit)
-        self.pushButton_5 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_5 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_5.setObjectName("pushButton_5")
         self.formLayout.setWidget(4, QtWidgets.QFormLayout.LabelRole, self.pushButton_5)
-        self.textEdit_7 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_7.setObjectName("textEdit_7")
-        self.formLayout.setWidget(4, QtWidgets.QFormLayout.FieldRole, self.textEdit_7)
-        self.pushButton_6 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_6 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_6.setObjectName("pushButton_6")
         self.formLayout.setWidget(5, QtWidgets.QFormLayout.LabelRole, self.pushButton_6)
-        self.textEdit_10 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_10.setObjectName("textEdit_10")
-        self.formLayout.setWidget(5, QtWidgets.QFormLayout.FieldRole, self.textEdit_10)
-        self.pushButton_7 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_7 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_7.setObjectName("pushButton_7")
         self.formLayout.setWidget(6, QtWidgets.QFormLayout.LabelRole, self.pushButton_7)
-        self.textEdit_5 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_5.setObjectName("textEdit_5")
-        self.formLayout.setWidget(6, QtWidgets.QFormLayout.FieldRole, self.textEdit_5)
-        self.pushButton_8 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_8 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_8.setObjectName("pushButton_8")
         self.formLayout.setWidget(7, QtWidgets.QFormLayout.LabelRole, self.pushButton_8)
-        self.textEdit_3 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_3.setObjectName("textEdit_3")
-        self.formLayout.setWidget(7, QtWidgets.QFormLayout.FieldRole, self.textEdit_3)
-        self.pushButton_10 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_10 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_10.setObjectName("pushButton_10")
         self.formLayout.setWidget(9, QtWidgets.QFormLayout.LabelRole, self.pushButton_10)
-        self.textEdit_4 = QtWidgets.QTextEdit(self.widget)
-        self.textEdit_4.setObjectName("textEdit_4")
-        self.formLayout.setWidget(9, QtWidgets.QFormLayout.FieldRole, self.textEdit_4)
-        self.pushButton_9 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_9 = QtWidgets.QPushButton(self.layoutWidget)
         self.pushButton_9.setObjectName("pushButton_9")
         self.formLayout.setWidget(8, QtWidgets.QFormLayout.LabelRole, self.pushButton_9)
-        self.textBrowser = QtWidgets.QTextBrowser(self.widget)
+        self.textBrowser_4 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_4.setObjectName("textBrowser_4")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.textBrowser_4)
+        self.textBrowser_5 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_5.setObjectName("textBrowser_5")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.textBrowser_5)
+        self.textBrowser_6 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_6.setObjectName("textBrowser_6")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.textBrowser_6)
+        self.textBrowser_7 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_7.setObjectName("textBrowser_7")
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.textBrowser_7)
+        self.textBrowser_8 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_8.setObjectName("textBrowser_8")
+        self.formLayout.setWidget(4, QtWidgets.QFormLayout.FieldRole, self.textBrowser_8)
+        self.textBrowser_9 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_9.setObjectName("textBrowser_9")
+        self.formLayout.setWidget(5, QtWidgets.QFormLayout.FieldRole, self.textBrowser_9)
+        self.textBrowser_10 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_10.setObjectName("textBrowser_10")
+        self.formLayout.setWidget(6, QtWidgets.QFormLayout.FieldRole, self.textBrowser_10)
+        self.textBrowser_11 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_11.setObjectName("textBrowser_11")
+        self.formLayout.setWidget(7, QtWidgets.QFormLayout.FieldRole, self.textBrowser_11)
+        self.textBrowser = QtWidgets.QTextBrowser(self.layoutWidget)
         self.textBrowser.setObjectName("textBrowser")
         self.formLayout.setWidget(8, QtWidgets.QFormLayout.FieldRole, self.textBrowser)
-        self.widget1 = QtWidgets.QWidget(self.centralwidget)
-        self.widget1.setGeometry(QtCore.QRect(520, 0, 501, 781))
-        self.widget1.setObjectName("widget1")
-        self.gridLayout = QtWidgets.QGridLayout(self.widget1)
+        self.textBrowser_12 = QtWidgets.QTextBrowser(self.layoutWidget)
+        self.textBrowser_12.setObjectName("textBrowser_12")
+        self.formLayout.setWidget(9, QtWidgets.QFormLayout.FieldRole, self.textBrowser_12)
+        self.layoutWidget1 = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget1.setGeometry(QtCore.QRect(520, 0, 491, 731))
+        self.layoutWidget1.setObjectName("layoutWidget1")
+        self.gridLayout = QtWidgets.QGridLayout(self.layoutWidget1)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
-        self.textEdit_16 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_16.setObjectName("textEdit_16")
-        self.gridLayout.addWidget(self.textEdit_16, 4, 1, 1, 1)
-        self.textEdit_15 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_15.setObjectName("textEdit_15")
-        self.gridLayout.addWidget(self.textEdit_15, 0, 1, 1, 1)
-        self.textEdit_8 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_8.setObjectName("textEdit_8")
-        self.gridLayout.addWidget(self.textEdit_8, 2, 1, 1, 1)
-        self.textEdit_12 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_12.setObjectName("textEdit_12")
-        self.gridLayout.addWidget(self.textEdit_12, 3, 1, 1, 1)
-        self.textEdit_9 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_9.setObjectName("textEdit_9")
-        self.gridLayout.addWidget(self.textEdit_9, 1, 1, 1, 1)
-        self.textEdit_14 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_14.setObjectName("textEdit_14")
-        self.gridLayout.addWidget(self.textEdit_14, 5, 1, 1, 1)
-        self.textEdit_13 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_13.setObjectName("textEdit_13")
-        self.gridLayout.addWidget(self.textEdit_13, 6, 1, 1, 1)
-        self.textEdit_17 = QtWidgets.QTextEdit(self.widget1)
-        self.textEdit_17.setObjectName("textEdit_17")
-        self.gridLayout.addWidget(self.textEdit_17, 7, 1, 1, 1)
-        self.pushButton_19 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_19 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_19.setObjectName("pushButton_19")
         self.gridLayout.addWidget(self.pushButton_19, 8, 0, 1, 1)
-        self.pushButton_14 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_14 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_14.setObjectName("pushButton_14")
         self.gridLayout.addWidget(self.pushButton_14, 3, 0, 1, 1)
-        self.pushButton_11 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_11 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_11.setObjectName("pushButton_11")
         self.gridLayout.addWidget(self.pushButton_11, 0, 0, 1, 1)
-        self.pushButton_15 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_15 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_15.setObjectName("pushButton_15")
         self.gridLayout.addWidget(self.pushButton_15, 4, 0, 1, 1)
-        self.pushButton_16 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_16 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_16.setObjectName("pushButton_16")
         self.gridLayout.addWidget(self.pushButton_16, 5, 0, 1, 1)
-        self.pushButton_13 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_13 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_13.setObjectName("pushButton_13")
         self.gridLayout.addWidget(self.pushButton_13, 2, 0, 1, 1)
-        self.pushButton_12 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_12 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_12.setObjectName("pushButton_12")
         self.gridLayout.addWidget(self.pushButton_12, 1, 0, 1, 1)
-        self.pushButton_18 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_18 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_18.setObjectName("pushButton_18")
         self.gridLayout.addWidget(self.pushButton_18, 7, 0, 1, 1)
-        self.pushButton_17 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_17 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_17.setObjectName("pushButton_17")
         self.gridLayout.addWidget(self.pushButton_17, 6, 0, 1, 1)
-        self.pushButton_20 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_20 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_20.setObjectName("pushButton_20")
         self.gridLayout.addWidget(self.pushButton_20, 9, 0, 1, 1)
-        self.textBrowser_2 = QtWidgets.QTextBrowser(self.widget1)
+        self.textBrowser_13 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_13.setObjectName("textBrowser_13")
+        self.gridLayout.addWidget(self.textBrowser_13, 0, 1, 1, 1)
+        self.textBrowser_14 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_14.setObjectName("textBrowser_14")
+        self.gridLayout.addWidget(self.textBrowser_14, 1, 1, 1, 1)
+        self.textBrowser_15 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_15.setObjectName("textBrowser_15")
+        self.gridLayout.addWidget(self.textBrowser_15, 2, 1, 1, 1)
+        self.textBrowser_16 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_16.setObjectName("textBrowser_16")
+        self.gridLayout.addWidget(self.textBrowser_16, 3, 1, 1, 1)
+        self.textBrowser_17 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_17.setObjectName("textBrowser_17")
+        self.gridLayout.addWidget(self.textBrowser_17, 4, 1, 1, 1)
+        self.textBrowser_18 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_18.setObjectName("textBrowser_18")
+        self.gridLayout.addWidget(self.textBrowser_18, 5, 1, 1, 1)
+        self.textBrowser_19 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_19.setObjectName("textBrowser_19")
+        self.gridLayout.addWidget(self.textBrowser_19, 6, 1, 1, 1)
+        self.textBrowser_20 = QtWidgets.QTextBrowser(self.layoutWidget1)
+        self.textBrowser_20.setObjectName("textBrowser_20")
+        self.gridLayout.addWidget(self.textBrowser_20, 7, 1, 1, 1)
+        self.textBrowser_2 = QtWidgets.QTextBrowser(self.layoutWidget1)
         self.textBrowser_2.setObjectName("textBrowser_2")
         self.gridLayout.addWidget(self.textBrowser_2, 8, 1, 1, 1)
-        self.textBrowser_3 = QtWidgets.QTextBrowser(self.widget1)
+        self.textBrowser_3 = QtWidgets.QTextBrowser(self.layoutWidget1)
         self.textBrowser_3.setObjectName("textBrowser_3")
         self.gridLayout.addWidget(self.textBrowser_3, 9, 1, 1, 1)
+        self.pushButton_back = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_back.setGeometry(QtCore.QRect(450, 750, 141, 51))
+        self.pushButton_back.setObjectName("pushButton_back")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1023, 26))
@@ -171,6 +174,56 @@ class Ui_MainWindow(object):
         self.pushButton_8.setText(_translate("MainWindow", "Урок 8"))
         self.pushButton_10.setText(_translate("MainWindow", "Урок 10"))
         self.pushButton_9.setText(_translate("MainWindow", "Урок 9"))
+        self.textBrowser_4.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Химия - часть естествознания + вещество</span></p></body></html>"))
+        self.textBrowser_5.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Реакции и переодическая система таблица менделеева</span></p></body></html>"))
+        self.textBrowser_6.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Химические формулы, атом, относительная атомная масса и молекулярная масса</span></p></body></html>"))
+        self.textBrowser_7.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Изотопы, строение электронных оболочек, изменение числа электронов на внешнем слое</span></p></body></html>"))
+        self.textBrowser_8.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Неметалы, ковалентная связь</span></p></body></html>"))
+        self.textBrowser_9.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Металы, металическая связь</span></p></body></html>"))
+        self.textBrowser_10.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Моль</span></p></body></html>"))
+        self.textBrowser_11.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Степень окисления</span></p></body></html>"))
+        self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Оксиды, реакции с оксидами, летучие водородные соединения</span></p></body></html>"))
+        self.textBrowser_12.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Основания, реакции с основаниями</span></p></body></html>"))
         self.pushButton_19.setText(_translate("MainWindow", "Урок 19"))
         self.pushButton_14.setText(_translate("MainWindow", "Урок 14"))
         self.pushButton_11.setText(_translate("MainWindow", "Урок 11"))
@@ -181,4 +234,55 @@ class Ui_MainWindow(object):
         self.pushButton_18.setText(_translate("MainWindow", "Урок 18"))
         self.pushButton_17.setText(_translate("MainWindow", "Урок 17"))
         self.pushButton_20.setText(_translate("MainWindow", "Урок 20"))
+        self.textBrowser_13.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Кислоты, химические реакцие с кислотами</span></p></body></html>"))
+        self.textBrowser_14.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Соли, реакции с солями</span></p></body></html>"))
+        self.textBrowser_15.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Кристалическая решётка</span></p></body></html>"))
+        self.textBrowser_16.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Смеси</span></p></body></html>"))
+        self.textBrowser_17.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Химические явления, химические явления</span></p></body></html>"))
+        self.textBrowser_18.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Химическии реакции и физические реакции</span></p></body></html>"))
+        self.textBrowser_19.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Электролитическая диссоциация и основные её положения</span></p></body></html>"))
+        self.textBrowser_20.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Ионные уравнения</span></p></body></html>"))
+        self.textBrowser_2.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Классификация кислот, оснований, оксидов, солей</span></p></body></html>"))
+        self.textBrowser_3.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Окислительно востоновительная реакция</span></p></body></html>"))
+        self.pushButton_back.setText(_translate("MainWindow", "<-- Назад"))
 

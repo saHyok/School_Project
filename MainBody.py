@@ -9,8 +9,8 @@ import operator
 
 from Start_Window import Ui_MainWindow
 class MainWindow(QMainWindow,Ui_MainWindow):
-    def __init__(self,*args,**kwargs):
-        super(MainWindow,self).__init__(*args,**kwargs)
+    def __init__(self):
+        super(MainWindow,self).__init__()
         self.setupUi(self)
         self.pushButton_Exit.pressed.connect(QCoreApplication.instance().quit)
         self.pushButton_Lessons.pressed.connect(self.openLessons)

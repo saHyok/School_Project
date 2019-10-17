@@ -1,6 +1,8 @@
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
+import sys
+sys.path.append("/../")
 import Lessons_Body
 import Test_Body
 import operator

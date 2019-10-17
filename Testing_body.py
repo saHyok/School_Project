@@ -7,6 +7,6 @@ import operator
 import Test_Body
 from testing import Ui_MainWindow
 class Testing(QMainWindow,Ui_MainWindow):
-    def __init__(self,*args,**kwargs):
+    def __init__(self,test):
         super().__init__()
         self.setupUi(self)

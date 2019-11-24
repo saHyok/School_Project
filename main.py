@@ -5,7 +5,6 @@ import sys
 sys.path.append("/../")
 import Lessons_Body
 import Test_Body
-import operator
 
 import MainBody
 from Start_Window import Ui_MainWindow

@@ -13,19 +13,25 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(39, 60, 117);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>0</y>
+      <y>10</y>
       <width>511</width>
-      <height>731</height>
+      <height>741</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
      <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 1</string>
        </property>
@@ -33,6 +39,9 @@
      </item>
      <item row="1" column="0">
       <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 2</string>
        </property>
@@ -40,6 +49,9 @@
      </item>
      <item row="2" column="0">
       <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 3</string>
        </property>
@@ -47,6 +59,9 @@
      </item>
      <item row="3" column="0">
       <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 4</string>
        </property>
@@ -54,6 +69,9 @@
      </item>
      <item row="4" column="0">
       <widget class="QPushButton" name="pushButton_5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 5</string>
        </property>
@@ -61,6 +79,9 @@
      </item>
      <item row="5" column="0">
       <widget class="QPushButton" name="pushButton_6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 6</string>
        </property>
@@ -68,6 +89,9 @@
      </item>
      <item row="6" column="0">
       <widget class="QPushButton" name="pushButton_7">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 7</string>
        </property>
@@ -75,6 +99,9 @@
      </item>
      <item row="7" column="0">
       <widget class="QPushButton" name="pushButton_8">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 8</string>
        </property>
@@ -82,6 +109,9 @@
      </item>
      <item row="9" column="0">
       <widget class="QPushButton" name="pushButton_10">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 10</string>
        </property>
@@ -89,6 +119,9 @@
      </item>
      <item row="8" column="0">
       <widget class="QPushButton" name="pushButton_9">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 9</string>
        </property>
@@ -96,6 +129,9 @@
      </item>
      <item row="0" column="1">
       <widget class="QTextBrowser" name="textBrowser_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -107,6 +143,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="1" column="1">
       <widget class="QTextBrowser" name="textBrowser_5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -118,6 +157,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="2" column="1">
       <widget class="QTextBrowser" name="textBrowser_6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -129,6 +171,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="3" column="1">
       <widget class="QTextBrowser" name="textBrowser_7">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -140,6 +185,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="4" column="1">
       <widget class="QTextBrowser" name="textBrowser_8">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -151,6 +199,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="5" column="1">
       <widget class="QTextBrowser" name="textBrowser_9">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -162,6 +213,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="6" column="1">
       <widget class="QTextBrowser" name="textBrowser_10">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -173,6 +227,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="7" column="1">
       <widget class="QTextBrowser" name="textBrowser_11">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -184,6 +241,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="8" column="1">
       <widget class="QTextBrowser" name="textBrowser">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -195,6 +255,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="9" column="1">
       <widget class="QTextBrowser" name="textBrowser_12">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -212,12 +275,15 @@ p, li { white-space: pre-wrap; }
       <x>530</x>
       <y>0</y>
       <width>491</width>
-      <height>731</height>
+      <height>751</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
      <item row="8" column="0">
       <widget class="QPushButton" name="pushButton_19">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 19</string>
        </property>
@@ -225,6 +291,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="3" column="0">
       <widget class="QPushButton" name="pushButton_14">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 14</string>
        </property>
@@ -232,6 +301,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_11">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 11</string>
        </property>
@@ -239,6 +311,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="4" column="0">
       <widget class="QPushButton" name="pushButton_15">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 15</string>
        </property>
@@ -246,6 +321,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="5" column="0">
       <widget class="QPushButton" name="pushButton_16">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 16</string>
        </property>
@@ -253,6 +331,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="2" column="0">
       <widget class="QPushButton" name="pushButton_13">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 13</string>
        </property>
@@ -260,6 +341,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="1" column="0">
       <widget class="QPushButton" name="pushButton_12">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 12</string>
        </property>
@@ -267,6 +351,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="7" column="0">
       <widget class="QPushButton" name="pushButton_18">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 18</string>
        </property>
@@ -274,6 +361,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="6" column="0">
       <widget class="QPushButton" name="pushButton_17">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 17</string>
        </property>
@@ -281,6 +371,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="9" column="0">
       <widget class="QPushButton" name="pushButton_20">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
        <property name="text">
         <string>Урок 20</string>
        </property>
@@ -288,6 +381,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="0" column="1">
       <widget class="QTextBrowser" name="textBrowser_13">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -299,6 +395,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="1" column="1">
       <widget class="QTextBrowser" name="textBrowser_14">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -310,6 +409,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="2" column="1">
       <widget class="QTextBrowser" name="textBrowser_15">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -321,6 +423,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="3" column="1">
       <widget class="QTextBrowser" name="textBrowser_16">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -332,6 +437,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="4" column="1">
       <widget class="QTextBrowser" name="textBrowser_17">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -343,6 +451,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="5" column="1">
       <widget class="QTextBrowser" name="textBrowser_18">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -354,6 +465,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="6" column="1">
       <widget class="QTextBrowser" name="textBrowser_19">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -365,6 +479,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="7" column="1">
       <widget class="QTextBrowser" name="textBrowser_20">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -376,6 +493,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="8" column="1">
       <widget class="QTextBrowser" name="textBrowser_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -387,6 +507,9 @@ p, li { white-space: pre-wrap; }
      </item>
      <item row="9" column="1">
       <widget class="QTextBrowser" name="textBrowser_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(116, 185, 255);</string>
+       </property>
        <property name="html">
         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -407,20 +530,13 @@ p, li { white-space: pre-wrap; }
       <height>51</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 151, 230);</string>
+    </property>
     <property name="text">
      <string>&lt;-- Назад</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1023</width>
-     <height>26</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

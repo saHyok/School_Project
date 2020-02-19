@@ -13,8 +13,16 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+<<<<<<< HEAD
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="">
+=======
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(39, 60, 117);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -25,10 +33,24 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
+<<<<<<< HEAD
       <widget class="QTextBrowser" name="textBrowser"/>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_1">
+=======
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 151, 230);</string>
+       </property>
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
        <property name="text">
         <string/>
        </property>

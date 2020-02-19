@@ -17,10 +17,21 @@ class Testing(QMainWindow,Ui_MainWindow):
         self.options = []
         self.answers = []
         self.questions = []
+<<<<<<< HEAD
         self.score = 1
         self.ReadData()
         self.i = 1
         self.j = 1
+=======
+<<<<<<< HEAD
+        self.score = 0
+        self.ReadData()
+        self.i = 1
+        self.j = 1
+=======
+        self.ReadData()
+>>>>>>> e38375f641006106d54c83e53e0e8df4a69e30aa
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
         self.FillIn()
         for n in range(1,5):
             getattr(self,"pushButton_%s"%n).pressed.connect(lambda v=n: self.MoveOn(v))
@@ -30,16 +41,34 @@ class Testing(QMainWindow,Ui_MainWindow):
         file = open(roote)
         for line in file:
            self.options.append(line)
+<<<<<<< HEAD
         file.close()
+=======
+<<<<<<< HEAD
+        file.close()
+=======
+>>>>>>> e38375f641006106d54c83e53e0e8df4a69e30aa
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
         RightRoote = r'QuestionsAnswers'+'\\'+Num+'\Answers.txt'
         file = open(RightRoote)
         for line in file:
             self.answers.append(line)
+<<<<<<< HEAD
         file.close()
+=======
+<<<<<<< HEAD
+        file.close()
+=======
+>>>>>>> e38375f641006106d54c83e53e0e8df4a69e30aa
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
         QuestionRoote = r'QuestionsAnswers'+'\\'+Num+'\Questions.txt'
         file = open(QuestionRoote)
         for line in file:
             self.questions.append(line)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6
         file.close()
     def FillIn(self):
         _translate = QtCore.QCoreApplication.translate
@@ -66,3 +95,15 @@ class Testing(QMainWindow,Ui_MainWindow):
             self.pushButton_3.setText(_translate("testing", self.options[2+self.i]))
             self.pushButton_4.setText(_translate("testing", self.options[3+self.i]))
             self.textBrowser.setHtml(_translate("MainWindow", self.questions[self.j]))
+<<<<<<< HEAD
+=======
+=======
+    def FillIn(self):
+        _translate = QtCore.QCoreApplication.translate
+        self.pushButton_1.setText(_translate("testing", self.options[0]))
+        self.pushButton_2.setText(_translate("testing", self.options[1]))
+        self.pushButton_3.setText(_translate("testing", self.options[2]))
+        self.pushButton_4.setText(_translate("testing", self.options[3]))
+        self.textBrowser.setHtml(_translate("MainWindow", self.questions[0]))
+>>>>>>> e38375f641006106d54c83e53e0e8df4a69e30aa
+>>>>>>> c16a7dfa9b6aba9648b0b135ce6970adee49b4c6

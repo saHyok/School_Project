@@ -18,10 +18,11 @@ class Test(QMainWindow,Ui_MainWindow):
             getattr(self,"pushButton_%s"%n).pressed.connect(lambda v=n: self.openTesting(v))
         self.pushButton_exit.pressed.connect(self.back)
         self.test = test
+        self.back = self.test
     def openTesting(self,v):
         self.testing = Testing_body.Testing(self,v)
         self.testing.show()
         self.hide()
     def back(self):
-        self.test.show()
+        self.back.show()
         self.hide()

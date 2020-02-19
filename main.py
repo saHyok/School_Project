@@ -1,5 +1,5 @@
 from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import *   
 from PyQt5.QtCore import *
 import sys
 sys.path.append("/../")
@@ -16,5 +16,5 @@ if __name__ == '__main__':
     app = QApplication([])
     app.setApplicationName("")
 
-    window = MainWindow()
+    window = MainWindow('')
     app.exec_()
